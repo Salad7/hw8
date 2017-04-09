@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.2.1_2aeb26ca63473b11281d1c929181fb11bc0e6a0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.2.1_2680651d0bfcb29cb1029e65f25b45b4aa0ed78b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_cd36299bda286290bc737850c221242d05a924fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-26.0.0-alpha1_ed890cf194a2990201bf28b9c5601bf8d6b376b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.2.1_1f881eaaba331ef24fde9fa273a1fc6d3884f1a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-26.0.0-alpha1_6442b11ad4d394230aed9bb7090015294033e30a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_fe8218b1abc1882b7fe233adee9a3c5f232d6d99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5630a255166ce5817aba4e2a30dd19a39bed732b">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_41a16f927f5a5f0635763fb6728bba46944fe684\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_1f4cf0030d6ae83a903ef0c4eabd3ac605ed05a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_409a6c7b98e804456893d39081268183baa171b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.2.1_717e3ab95eb95d19fff40d1691f9688c5f9ea1ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.2.1_2981bc93b08b33e09e8902cc3f580b1b9122d794\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.2.1_6455321b698f9ca4d4578dff90d7b8868c445d8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_697db412c2ada5b4c9b6c96ec66a5732de7766c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_972e69686e47b14b7906af161018d3b6f8f0db95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_518de9179b480755286663e36165e008811a19dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_c50472362c2bda78186a71fc8bdd052c0aa840a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_3caebdcea2914c996ca6e4fbc2b3d6855f8f0c2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-26.0.0-alpha1_7324d6e6f7ea0829ed617ff2eb74cabc34867e1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="521e60d208e746501bfb38dbcd7c821ebc16d24f">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e6080a8a7c3c3ebe906c9726827477951d484793\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.2.1_fa0251ca03977f946bba0cb4378d8d420a8e4a3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="C:\Users\msalad\Desktop\0409HW8Re\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.2.1_bf902307683212c054e07648d775efc7eed976ef\classes.dex" />
+    </item>
+
+</items>
