@@ -94,7 +94,8 @@
         android:layout_below="@+id/day1IV"
         android:layout_alignLeft="@+id/day1IV"
         android:layout_alignStart="@+id/day1IV"
-        android:id="@+id/day1TV" />
+        android:id="@+id/day1TV"
+        android:visibility="gone" />
 
     <TextView
         android:text="TextView"
@@ -102,7 +103,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/day2IV"
         android:layout_centerHorizontal="true"
-        android:id="@+id/day2TV" />
+        android:id="@+id/day2TV"
+        android:visibility="gone" />
 
     <TextView
         android:text="TextView"
@@ -111,7 +113,8 @@
         android:layout_alignBottom="@+id/day2TV"
         android:layout_alignRight="@+id/day3IV"
         android:layout_alignEnd="@+id/day3IV"
-        android:id="@+id/day3TV" />
+        android:id="@+id/day3TV"
+        android:visibility="gone" />
 
     <ImageView
         app:srcCompat="@mipmap/ic_launcher"
@@ -120,7 +123,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_width="100dp"
-        android:layout_height="100dp" />
+        android:layout_height="100dp"
+        android:visibility="gone" />
 
     <ImageView
         android:layout_width="100dp"
@@ -158,7 +162,8 @@
         android:layout_height="100dp"
         android:layout_below="@+id/moreDetailsTV"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:visibility="gone" />
 
     <TextView
         android:text="Headline"
@@ -185,5 +190,6 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignTop="@+id/day1IV"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
 </RelativeLayout>

@@ -5,6 +5,8 @@ import android.content.SharedPreferences;
 import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -42,6 +44,9 @@ public class CityWeather extends AppCompatActivity implements GetLocationAsync.I
     TextView cityWeatherHeaderTV;
     String cityKey, cityName, countryName;
     String tempF, tempC;
+    private RecyclerView mRecyclerView;
+    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.LayoutManager mLayoutManager;
 
 
     SharedPreferences sharedpreferences;
@@ -52,6 +57,7 @@ public class CityWeather extends AppCompatActivity implements GetLocationAsync.I
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_city_weather);
+
         mDatabase = FirebaseDatabase.getInstance().getReference().child("city");
         myRef = mDatabase;
 
@@ -82,6 +88,9 @@ public class CityWeather extends AppCompatActivity implements GetLocationAsync.I
 //Start Location Async
             new GetLocationAsync(CityWeather.this).execute(weatherURL);
         }
+
+
+        //
 
 
 
@@ -214,17 +223,29 @@ public class CityWeather extends AppCompatActivity implements GetLocationAsync.I
             writeToFirebase(s);
             setupCurrentDay(s);
 
+            mRecyclerView = (RecyclerView) findViewById(R.id.list);
+            // use this setting to improve performance if you know that changes
+            // in content do not change the layout size of the RecyclerView
+            mRecyclerView.setHasFixedSize(true);
 
-            FiveDay d1 = s.get(1);
-            FiveDay d2 = s.get(2);
-            FiveDay d3 = s.get(3);
+            // use a linear layout manager
+            mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+            mRecyclerView.setLayoutManager(mLayoutManager);
+            mRecyclerView.setAdapter(mAdapter);
+            mAdapter.notifyDataSetChanged();
+            mAdapter = new MyFiveDayAdapter(s,this);
+            mRecyclerView.setAdapter(mAdapter);
 
-            day1TV.setText(d1.getDate().toString());
-            day2TV.setText(d2.getDate().toString());
-            day3TV.setText(d3.getDate().toString());
-            Picasso.with(CityWeather.this).load("http://developer.accuweather.com/sites/default/files/"+day1Icon+"-s.png").into(day1IV);
-            Picasso.with(CityWeather.this).load("http://developer.accuweather.com/sites/default/files/"+day2Icon+"-s.png").into(day2IV);
-            Picasso.with(CityWeather.this).load("http://developer.accuweather.com/sites/default/files/"+day3Icon+"-s.png").into(day3IV);
+//            FiveDay d1 = s.get(1);
+//            FiveDay d2 = s.get(2);
+//            FiveDay d3 = s.get(3);
+//
+//            day1TV.setText(d1.getDate().toString());
+//            day2TV.setText(d2.getDate().toString());
+//            day3TV.setText(d3.getDate().toString());
+//            Picasso.with(CityWeather.this).load("http://developer.accuweather.com/sites/default/files/"+day1Icon+"-s.png").into(day1IV);
+//            Picasso.with(CityWeather.this).load("http://developer.accuweather.com/sites/default/files/"+day2Icon+"-s.png").into(day2IV);
+//            Picasso.with(CityWeather.this).load("http://developer.accuweather.com/sites/default/files/"+day3Icon+"-s.png").into(day3IV);
 
 
 

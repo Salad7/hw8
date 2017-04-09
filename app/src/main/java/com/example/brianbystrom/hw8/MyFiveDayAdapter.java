@@ -10,16 +10,17 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 
 /**
  * Created by msalad on 4/9/2017.
  */
 
-public class MyFiveDayAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
+public class MyFiveDayAdapter extends RecyclerView.Adapter<MyFiveDayAdapter.ViewHolder> {
     private ArrayList<FiveDay> mDataset;
     private Context mContext;
-    private Weather clickedRadio;
     //public static PlayPodcastAsync aTask;
 
     int counter = 0;
@@ -29,15 +30,13 @@ public class MyFiveDayAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>
     public static class ViewHolder extends RecyclerView.ViewHolder {
         // each data item is just a string in this case
 
-        public TextView tv_citycountry, tv_lastupdate, tv_temp;
-        public ImageButton mPodcastIb;
-        public ImageView fav;
+        public TextView tv_five;
+        public ImageView iv_five;
+
         public ViewHolder(View v) {
             super(v);
-            tv_citycountry = (TextView) v.findViewById(R.id.tv_citycountry);
-            tv_lastupdate = (TextView) v.findViewById(R.id.tv_lastupdate);
-            tv_temp = (TextView) v.findViewById(R.id.tv_temp);
-            fav = (ImageView) v.findViewById(R.id.tv_fav);
+            tv_five = (TextView) v.findViewById(R.id.tv_fiveday_tv);
+            iv_five = (ImageView) v.findViewById(R.id.iv_fiveday_iv);
 
         }
     }
@@ -48,81 +47,24 @@ public class MyFiveDayAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>
         mContext = context;
     }
 
-    private int convertMonthToNumber(String s){
-        if(s.equals("Jan")){
-            return 1;
-        }
-        else  if(s.equals("Feb")){
-            return 2;
-        }
-        else  if(s.equals("Mar")){
-            return 3;
-        }
-        else  if(s.equals("Apr")){
-            return 4;
-        }
-        else  if(s.equals("May")){
-            return 5;
-        }
-        else  if(s.equals("Jun")){
-            return 6;
-        }
-        else  if(s.equals("July")){
-            return 7;
-        }
-        else  if(s.equals("Aug")){
-            return 8;
-        }
-        else  if(s.equals("Sep")){
-            return 9;
-        }
-        else  if(s.equals("Oct")){
-            return 10;
-        }
-        else  if(s.equals("Nov")){
-            return 11;
-        }
-        else  if(s.equals("Dec")){
-            return 12;
-        }
-        return 99;
-    }
+
 
     // Create new views (invoked by the layout manager)
     @Override
-    public MyAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public MyFiveDayAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         // create a new view
 
-        View v = (View) LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_list_item, parent, false);
-        MyAdapter.ViewHolder vh = new MyAdapter.ViewHolder(v);
+        View v = (View) LayoutInflater.from(parent.getContext()).inflate(R.layout.custom_fiveday_item, parent, false);
+        ViewHolder vh = new ViewHolder(v);
         return vh;
     }
 
     // Replace the contents of a view (invoked by the layout manager)
     @Override
-    public void onBindViewHolder(MyAdapter.ViewHolder holder, final int position) {
-        // - get element from your dataset at this position
-        // - replace the contents of the view with that element
-        //TextView tv = (TextView) holder.mLinearLayout.findViewById(R.id.podcast_tv);
-        holder.tv_citycountry.setText(mDataset.get(position).getCity()+","+mDataset.get(position).getCountry());
-
-        //Log.d("POOP",mDataset.get(position).getPublished_date().substring(5,7));
-        //int day = Integer.parseInt(mDataset.get(position).getPublished_date().substring(5,7));
-        //int month = convertMonthToNumber(mDataset.get(position).getPublished_date().substring(8,11));
-        //int year = Integer.parseInt(mDataset.get(position).getPublished_date().substring(12,16));
-        holder.tv_temp.setText(mDataset.get(position).getTempF() + " F");
-
-        holder.tv_lastupdate.setText(mDataset.get(position).getTime());
-
-        if(mDataset.get(position).isFav()){
-            holder.fav.setImageResource(R.mipmap.star_gold);
-        }
-        else
-        {
-            holder.fav.setImageResource(R.mipmap.star_gray);
-        }
-
-
+    public void onBindViewHolder(MyFiveDayAdapter.ViewHolder holder, final int position) {
+        //holder.iv_five.setImageResource();
+        Picasso.with(mContext).load("http://developer.accuweather.com/sites/default/files/"+position+"-s.png").into(holder.iv_five);
+        holder.tv_five.setText(mDataset.get(position).date);
 
 
 
