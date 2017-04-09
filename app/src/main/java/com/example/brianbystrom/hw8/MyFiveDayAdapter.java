@@ -2,6 +2,7 @@ package com.example.brianbystrom.hw8;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,9 +22,7 @@ import java.util.ArrayList;
 public class MyFiveDayAdapter extends RecyclerView.Adapter<MyFiveDayAdapter.ViewHolder> {
     private ArrayList<FiveDay> mDataset;
     private Context mContext;
-    //public static PlayPodcastAsync aTask;
 
-    int counter = 0;
     // Provide a reference to the views for each data item
     // Complex data items may need more than one view per item, and
     // you provide access to all the views for a data item in a view holder
@@ -61,10 +60,11 @@ public class MyFiveDayAdapter extends RecyclerView.Adapter<MyFiveDayAdapter.View
 
     // Replace the contents of a view (invoked by the layout manager)
     @Override
-    public void onBindViewHolder(MyFiveDayAdapter.ViewHolder holder, final int position) {
+    public void onBindViewHolder(MyFiveDayAdapter.ViewHolder holder, int position) {
         //holder.iv_five.setImageResource();
-        Picasso.with(mContext).load("http://developer.accuweather.com/sites/default/files/"+position+"-s.png").into(holder.iv_five);
-        holder.tv_five.setText(mDataset.get(position).date);
+        //Picasso.with(mContext).load("http://developer.accuweather.com/sites/default/files/"+position+"-s.png").into(holder.iv_five);
+        holder.tv_five.setText(mDataset.get(position).getDate());
+       // Log.d("dates",(mDataset.get(8).getDate()));
 
 
 
@@ -73,6 +73,7 @@ public class MyFiveDayAdapter extends RecyclerView.Adapter<MyFiveDayAdapter.View
 
     @Override
     public int getItemCount() {
+        Log.d("size of fiveday",mDataset.size()+"");
         return mDataset.size();
     }
 }

@@ -37,8 +37,8 @@
       <file leaf-file-name="CityWeather.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/CityWeather.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+            <state relative-caret-position="282">
+              <caret line="236" column="44" selection-start-line="236" selection-start-column="44" selection-end-line="236" selection-end-column="44" />
               <folding>
                 <element signature="method#onOptionsItemSelected#0;class#CityWeather#0" expanded="false" />
                 <element signature="method#setupDataB#0;class#CityWeather#0" expanded="false" />
@@ -53,46 +53,11 @@
       <file leaf-file-name="MyFiveDayAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/MyFiveDayAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="66" column="58" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
+            <state relative-caret-position="214">
+              <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2361#2362#0" expanded="true" />
-                <element signature="e#2399#2400#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="132" selection-end-column="48" />
-              <folding>
-                <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onCancelled#0;class#4306:6017" expanded="false" />
-                <element signature="class#6067:6620" expanded="false" />
-                <element signature="e#6681#6726#0" expanded="false" />
-                <element signature="e#8080#8146#0" expanded="false" />
-                <element signature="e#9635#9686#0" expanded="false" />
-                <element signature="method#collectPhoneNumbers#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#setupData#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#currentWeather#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#showCurrentWeather#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#showProgressBar#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#hideProgressBar#0;class#MainActivity#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FiveDay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/FiveDay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -110,6 +75,53 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="405" column="29" selection-start-line="405" selection-start-column="25" selection-end-line="405" selection-end-column="29" />
+              <folding>
+                <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onCancelled#0;class#4306:6019" expanded="false" />
+                <element signature="class#6069:6622" expanded="false" />
+                <element signature="e#6683#6728#0" expanded="false" />
+                <element signature="e#8082#8148#0" expanded="false" />
+                <element signature="e#9637#9688#0" expanded="false" />
+                <element signature="method#collectPhoneNumbers#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#setupData#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#currentWeather#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#showProgressBar#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#hideProgressBar#0;class#MainActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="150" column="4" selection-start-line="150" selection-start-column="4" selection-end-line="150" selection-end-column="4" />
+              <folding>
+                <element signature="e#5675#5695#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FiveDay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/FiveDay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MyAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/MyAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -120,14 +132,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_city_weather.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_city_weather.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_city_weather.xml">
           <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
+            <state relative-caret-position="346">
+              <caret line="185" column="4" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -148,16 +160,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetCitySearchAsync.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/GetCitySearchAsync.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -2020,10 +2022,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/Weather.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/MyAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_fiveday_item.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/MyFiveDayAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/CityWeather.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/MyFiveDayAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_fiveday_item.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_city_weather.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
@@ -2621,17 +2624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="154" column="8" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/GetCitySearchAsync.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -2698,43 +2690,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/MyFiveDayAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="66" column="58" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2361#2362#0" expanded="true" />
-            <element signature="e#2399#2400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="132" selection-end-column="48" />
-          <folding>
-            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCancelled#0;class#4306:6017" expanded="false" />
-            <element signature="class#6067:6620" expanded="false" />
-            <element signature="e#6681#6726#0" expanded="false" />
-            <element signature="e#8080#8146#0" expanded="false" />
-            <element signature="e#9635#9686#0" expanded="false" />
-            <element signature="method#collectPhoneNumbers#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#setupData#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#currentWeather#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#showCurrentWeather#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#showProgressBar#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#hideProgressBar#0;class#MainActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/CityWeather.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+        <state relative-caret-position="282">
+          <caret line="236" column="44" selection-start-line="236" selection-start-column="44" selection-end-line="236" selection-end-column="44" />
           <folding>
             <element signature="method#onOptionsItemSelected#0;class#CityWeather#0" expanded="false" />
             <element signature="method#setupDataB#0;class#CityWeather#0" expanded="false" />
@@ -2745,14 +2704,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/MyFiveDayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_city_weather.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
+        <state relative-caret-position="346">
+          <caret line="185" column="4" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="150" column="4" selection-start-line="150" selection-start-column="4" selection-end-line="150" selection-end-column="4" />
+          <folding>
+            <element signature="e#5675#5695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/brianbystrom/hw8/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="405" column="29" selection-start-line="405" selection-start-column="25" selection-end-line="405" selection-end-column="29" />
+          <folding>
+            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onCancelled#0;class#4306:6019" expanded="false" />
+            <element signature="class#6069:6622" expanded="false" />
+            <element signature="e#6683#6728#0" expanded="false" />
+            <element signature="e#8082#8148#0" expanded="false" />
+            <element signature="e#9637#9688#0" expanded="false" />
+            <element signature="method#collectPhoneNumbers#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#setupData#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#currentWeather#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#showProgressBar#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#hideProgressBar#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

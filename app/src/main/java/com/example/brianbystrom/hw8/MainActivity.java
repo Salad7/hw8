@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity implements GetCityAsync.IDat
                         w.setTempF(dataSnapshot.child(i+"").child("tempF").getValue(String.class));
                         w.setTime(dataSnapshot.child(i+"").child("time").getValue(String.class));
                         savedCities.add(w);
-                        Log.d("exists",savedCities.get(0).getCity());
+                        //Log.d("exists",savedCities.get(0).getCity());
 
                     }
                 }

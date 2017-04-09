@@ -223,7 +223,7 @@ public class CityWeather extends AppCompatActivity implements GetLocationAsync.I
             writeToFirebase(s);
             setupCurrentDay(s);
 
-            mRecyclerView = (RecyclerView) findViewById(R.id.list);
+            mRecyclerView = (RecyclerView) findViewById(R.id.fiveday_list);
             // use this setting to improve performance if you know that changes
             // in content do not change the layout size of the RecyclerView
             mRecyclerView.setHasFixedSize(true);
@@ -231,10 +231,10 @@ public class CityWeather extends AppCompatActivity implements GetLocationAsync.I
             // use a linear layout manager
             mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
             mRecyclerView.setLayoutManager(mLayoutManager);
-            mRecyclerView.setAdapter(mAdapter);
-            mAdapter.notifyDataSetChanged();
+            Log.d("date of the second val",s.get(8).getDate());
             mAdapter = new MyFiveDayAdapter(s,this);
             mRecyclerView.setAdapter(mAdapter);
+            mAdapter.notifyDataSetChanged();
 
 //            FiveDay d1 = s.get(1);
 //            FiveDay d2 = s.get(2);
@@ -247,18 +247,6 @@ public class CityWeather extends AppCompatActivity implements GetLocationAsync.I
 //            Picasso.with(CityWeather.this).load("http://developer.accuweather.com/sites/default/files/"+day2Icon+"-s.png").into(day2IV);
 //            Picasso.with(CityWeather.this).load("http://developer.accuweather.com/sites/default/files/"+day3Icon+"-s.png").into(day3IV);
 
-
-
-
-
-
-
-
-
-
-
-
-            //Log.d("LALA",l.getKey()+"dddd");
 
         }
     }
