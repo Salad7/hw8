@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements GetCityAsync.IDat
         cityString = sharedpreferences.getString("CURRENT CITY", "");
         cname = (EditText) findViewById(R.id.cityNameET);
         ctryname = (EditText) findViewById(R.id.countryNameET);
-
+        mAdapter = new MyAdapter(savedCities, MainActivity.this);
         searchCityBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -113,6 +113,8 @@ public class MainActivity extends AppCompatActivity implements GetCityAsync.IDat
 //                i.putExtra("CNAME",cname.getText().toString());
 //                i.putExtra("CTRYNAME",cname.getText().toString());
 //                startActivity(i);
+                savedCities.clear();
+                mAdapter.notifyDataSetChanged();
                 for(int i = 0; i < 100; i++){
                     if(dataSnapshot.child(i+"").exists()){
                         Weather w = new Weather();
@@ -127,7 +129,6 @@ public class MainActivity extends AppCompatActivity implements GetCityAsync.IDat
                 }
                 // specify an adapter (see also next example)
                 Log.d("stuff","stuff");
-                mAdapter = new MyAdapter(savedCities, MainActivity.this);
                 mRecyclerView.setAdapter(mAdapter);
                 mAdapter.notifyDataSetChanged();
             }
@@ -288,8 +289,9 @@ public class MainActivity extends AppCompatActivity implements GetCityAsync.IDat
             i.putExtra("CNAME",s.get(0).getName());
             i.putExtra("KEY", s.get(0).getKey());
             i.putExtra("DBSIZE",sizeOfDB);
+            myRef.child((sizeOfDB)+"").setValue(s.get(0));
             startActivityForResult(i, 100);
-            myRef.child((sizeOfDB+1)+"").setValue(s.get(0));
+
         } else {
             Toast.makeText(this, "No city found.", Toast.LENGTH_SHORT).show();
         }

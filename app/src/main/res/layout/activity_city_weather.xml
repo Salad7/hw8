@@ -115,14 +115,6 @@
 
     <ImageView
         app:srcCompat="@mipmap/ic_launcher"
-        android:id="@+id/day2IV"
-        android:layout_alignTop="@+id/day1IV"
-        android:layout_centerHorizontal="true"
-        android:layout_width="100dp"
-        android:layout_height="100dp" />
-
-    <ImageView
-        app:srcCompat="@mipmap/ic_launcher"
         android:id="@+id/day3IV"
         android:layout_above="@+id/day3TV"
         android:layout_alignParentRight="true"
@@ -186,4 +178,12 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/cityWeatherHeaderTV" />
+
+    <ImageView
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/day2IV"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/day1IV"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
