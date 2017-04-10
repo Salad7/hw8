@@ -21,9 +21,11 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 import static com.example.brianbystrom.hw8.MainActivity.MyPREFERENCES;
 
-/**
- * Created by msalad on 4/8/2017.
- */
+/*
+Assignment #: HW 08
+File Name: Preferences.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
 
 public class Preferences extends AppCompatActivity implements GetCityAsync.IData, GetCurrentWeatherAsync.IData{
 

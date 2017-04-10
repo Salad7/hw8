@@ -2,10 +2,12 @@ package com.example.brianbystrom.hw8;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+/*
+Assignment #: HW 08
+File Name: FiveDay.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
 
-/**
- * Created by msalad on 4/8/2017.
- */
 
 public class FiveDay {
     String headline;

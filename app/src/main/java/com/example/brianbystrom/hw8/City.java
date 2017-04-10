@@ -6,9 +6,12 @@ Group Members: Brian Bystrom, Mohamed Salad
 
 package com.example.brianbystrom.hw8;
 
-/**
- * Created by brianbystrom on 2/6/17.
- */
+/*
+Assignment #: HW 08
+File Name: City.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
+
 
 public class City {
 

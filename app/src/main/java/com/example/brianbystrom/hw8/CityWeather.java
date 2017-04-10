@@ -30,10 +30,12 @@ import org.w3c.dom.Text;
 import java.util.ArrayList;
 
 import static com.example.brianbystrom.hw8.MainActivity.MyPREFERENCES;
+/*
+Assignment #: HW 08
+File Name: CityWeather.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
 
-/**
- * Created by msalad on 4/8/2017.
- */
 
 public class CityWeather extends AppCompatActivity implements GetLocationAsync.IDataCity, FiveDayForcastAsync.IDataFiveDay, GetCurrentWeatherAsync.IData{
 

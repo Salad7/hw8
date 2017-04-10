@@ -33,6 +33,11 @@ import java.util.Date;
 import java.util.Map;
 
 import static android.view.View.GONE;
+/*
+Assignment #: HW 08
+File Name: MainActivity.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
 
 
 public class MainActivity extends AppCompatActivity implements GetCityAsync.IData, GetCurrentWeatherAsync.IData, GetCitySearchAsync.IData{

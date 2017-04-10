@@ -19,9 +19,12 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.Date;
 
-/**
- * Created by msalad on 4/9/2017.
- */
+/*
+Assignment #: HW 08
+File Name: MyFiveDayAdapter.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
+
 
 public class MyFiveDayAdapter extends RecyclerView.Adapter<MyFiveDayAdapter.ViewHolder> {
     private ArrayList<FiveDay> mDataset;

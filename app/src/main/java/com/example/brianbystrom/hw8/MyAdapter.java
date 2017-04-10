@@ -29,9 +29,12 @@ import org.ocpsoft.prettytime.PrettyTime;
 import java.util.ArrayList;
 import java.util.Date;
 
-/**
- * Created by brianbystrom on 3/9/17.
- */
+/*
+Assignment #: HW 08
+File Name: MyAdapter.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
+
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     private ArrayList<City> mDataset;

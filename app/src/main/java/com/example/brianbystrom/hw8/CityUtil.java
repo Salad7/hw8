@@ -6,11 +6,11 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-/**
- * Created by brianbystrom on 2/6/17.
- */
-
-//String title, author, published_date, description, urlToImage;
+/*
+Assignment #: HW 08
+File Name: CityUtil.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
 
 
 public class CityUtil {

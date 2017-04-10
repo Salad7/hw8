@@ -16,9 +16,12 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 
-/**
- * Created by brianbystrom on 2/6/17.
- */
+/*
+Assignment #: HW 08
+File Name: GetCitySearchAsync.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
+
 
 public class GetCitySearchAsync extends AsyncTask<String, Void, ArrayList<City>> {
 

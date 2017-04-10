@@ -15,10 +15,12 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+/*
+Assignment #: HW 08
+File Name: GetCurrentWeatherAsync.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
 
-/**
- * Created by brianbystrom on 2/6/17.
- */
 
 public class GetCurrentWeatherAsync extends AsyncTask<String, Void, ArrayList<Weather>> {
 

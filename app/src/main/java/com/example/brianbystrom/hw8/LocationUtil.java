@@ -8,11 +8,12 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-/**
- * Created by brianbystrom on 2/6/17.
- */
+/*
+Assignment #: HW 08
+File Name: LocationUtil.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
 
-//String title, author, published_date, description, urlToImage;
 
 
 public class LocationUtil {

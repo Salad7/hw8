@@ -12,11 +12,12 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.logging.Logger;
 
-/**
- * Created by brianbystrom on 2/6/17.
- */
+/*
+Assignment #: HW 08
+File Name: FiveDayForcastUtil.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
 
-//String title, author, published_date, description, urlToImage;
 
 
 public class FiveDayForcastUtil {

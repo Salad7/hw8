@@ -1,8 +1,11 @@
 package com.example.brianbystrom.hw8;
 
-/**
- * Created by msalad on 4/8/2017.
- */
+/*
+Assignment #: HW 08
+File Name: Location.java
+Group Members: Brian Bystrom, Mohamed Salad
+*/
+
 
 public class Location {
     String key;
