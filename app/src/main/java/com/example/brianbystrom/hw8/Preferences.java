@@ -66,7 +66,7 @@ setCityET.setHint("City Name (i.e. Charlotte)");
                 builder.setPositiveButton("Set", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         if(celc.isChecked()){
-                            Log.d("check","Celcius is checked");
+                            Log.d("check","Celcius is checked");//
                             SharedPreferences.Editor editor = sharedpreferences.edit();
                             editor.remove("F");
                             editor.commit();
